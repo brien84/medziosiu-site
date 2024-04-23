@@ -432,10 +432,12 @@ footer a {
     position: fixed;
     overflow-y: scroll;
     overscroll-behavior: contain;
-    top: 40px; right: 0; bottom: 40px; left: 0;
+    top: 0px; right: 0; bottom: 40px; left: 0;
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    color: black;
+    background-color: #f2f2f7;
 }
 
 .policy {
@@ -470,7 +472,7 @@ footer a {
 }
 
 .policy a {
-    color: white;
+    color: black;
 }
 
 
