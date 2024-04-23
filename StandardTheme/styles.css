@@ -469,6 +469,10 @@ footer a {
     scrollbar-width: none;
 }
 
+.policy a {
+    color: white;
+}
+
 
 /*** .not-found ***/
 
