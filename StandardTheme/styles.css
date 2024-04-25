@@ -202,11 +202,13 @@ body,
 /*** .store-button ***/
 
 .content-container--small .store-button {
+    height: 57px;
     display: flex;
     justify-content: center;
 }
 
 .content-container--large .store-button {
+    height: 57px;
     display: flex;
     justify-content: left;
 }
