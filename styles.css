@@ -10,17 +10,10 @@ body {
     line-height: 1.5;
 
     font-family: "Manrope", sans-serif;
-/*    margin: auto;*/
-/*    max-width: 1080px;*/
-/*    padding-left: 16px;*/
-/*    padding-right: 16px;*/
 
     display: flex;
     flex-direction: column;
 }
-
-
-/*** .site-content ***/
 
 .site-content {
     flex-direction: column;
@@ -28,9 +21,6 @@ body {
     align-items: center;
     display: flex;
 }
-
-
-/*** .site-content-wrapper ***/
 
 .site-content-wrapper {
     padding: 20px 20px;
@@ -51,9 +41,6 @@ body {
     }
 }
 
-
-/*** .content-container--small ***/
-
 @media only screen and (min-width:660px) {
     .content-container--small {
         display: none
@@ -68,13 +55,6 @@ body {
 .content-container--small .image-content {
     display: flex;
     justify-content: center
-}
-
-
-/*** .content-container--large ***/
-
-.content-container--large {
-    align-items: center;
 }
 
 @media only screen and (max-width:960px) {
@@ -94,54 +74,42 @@ body {
     margin-bottom: 40px;
 }
 
-/*.content-container--large .info-content {*/
-/*    flex: 0 1 auto;*/
-/*}*/
-
 .content-container--large .image-content {
     display: flex;
     flex: 0 1 auto;
     flex-direction: row;
     justify-content: flex-end;
     margin-left: 20px;
+    width: 50%;
 }
 
-
-/*** .app-info ***/
+.content-container--large .info-content {
+    width: 50%;
+}
 
 .content-container--small .app-info-icon {
-    width: 60px;
-    min-width: 60px;
-    height=auto;
+    width: 64px;
     vertical-align: middle;
-    border-radius: 10px;
 }
 
 .content-container--large .app-info-icon {
-    width: 92px;
-    min-width: 92px;
-    height=auto;
+    width: 80px;
     vertical-align: middle;
-    border-radius: 15px;
 }
 
-
-/*** .store-button ***/
-
 .content-container--small .store-button {
-    height: 57px;
     display: flex;
     justify-content: center;
 }
 
 .content-container--large .store-button {
-    height: 57px;
     display: flex;
-    justify-content: left;
+    justify-content: left; 
 }
 
-
-/*** .device-mockup ***/
+.store-button img {
+    height: 57px;
+}
 
 .content-container--small .device-mockup {
     position: relative;
@@ -173,9 +141,6 @@ body {
     height: 600px;
     width: auto;
 }
-
-
-/*** .device-fade ***/
 
 .device-fade img {
     position: absolute;
@@ -224,7 +189,7 @@ body {
     }
 }
 
-#f1 {}
+#f1 { }
 
 #f2 {
     -webkit-animation-delay: -8s;
@@ -233,8 +198,6 @@ body {
 #f3 {
     -webkit-animation-delay: -4s;
 }
-
-/*** footer ***/
 
 footer {
     box-sizing: border-box;
@@ -257,8 +220,6 @@ footer a {
     text-decoration: none;
 }
 
-** .not-found ***/
-
 .not-found {
     padding: 20px;
     color: white;
@@ -267,11 +228,9 @@ footer a {
     font-size: 30px;
 }
 
-
 .document {
-    font-family: "Manrope", sans-serif;
     margin: auto;
-    max-width: 1080px;
+    max-width: 960px;
     padding-left: 16px;
     padding-right: 16px;
 }
