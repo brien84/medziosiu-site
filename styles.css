@@ -2,24 +2,20 @@
 body {
     background-color: white;
     color: black;
-
+    font-family: "Manrope", sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-
-    min-height: 100vh;
-    line-height: 1.5;
-
-    font-family: "Manrope", sans-serif;
-
     display: flex;
     flex-direction: column;
 }
 
 .site-content {
-    flex-direction: column;
-    flex: 1;
     align-items: center;
     display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .site-content-wrapper {
@@ -29,15 +25,12 @@ body {
 @media only screen and (min-width:960px) {
     .site-content-wrapper {
         max-width: 960px;
-        min-width: 0
     }
 }
 
 @media only screen and (min-width:660px) {
     .site-content-wrapper {
-        flex: 1 0 auto;
         padding: 46px 20px;
-        min-width: 0
     }
 }
 
@@ -115,38 +108,27 @@ body {
 
 .content-container--small .device-mockup {
     position: relative;
-    width: 230px;
     height: 450px;
-    opacity: 1;
-    visibility: inherit;
-    transform: translate(0px);
-    margin-top: 20px;
+    width: 225px;
 }
 
 .content-container--small .device-mockup img {
     position: absolute;
     height: 450px;
-    width: auto;
 }
 
 .content-container--large .device-mockup {
     position: relative;
-    width: 301px;
     height: 600px;
-    opacity: 1;
-    visibility: inherit;
-    transform: translate(0px);
+    width: 300px;
 }
 
 .content-container--large .device-mockup img {
     position: absolute;
     height: 600px;
-    width: auto;
 }
 
 .device-fade img {
-    position: absolute;
-    top: 0;
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 12s;
@@ -191,7 +173,9 @@ body {
     }
 }
 
-#f1 { }
+#f1 { 
+
+}
 
 #f2 {
     -webkit-animation-delay: -8s;
@@ -202,19 +186,11 @@ body {
 }
 
 footer {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     color: #bdc3c7;
+    font-size: 14px;
     background-color: black;
     text-align: center;
     z-index: 99;
-
-}
-
-footer p {
-    font-family: Roboto-Regular, Helvetica, sans-serif;
-    font-size: 14px;
 }
 
 footer a {
@@ -223,11 +199,10 @@ footer a {
 }
 
 .not-found {
-    padding: 20px;
-    color: white;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
+    color: black;
     font-size: 30px;
+    text-align: center;
+    padding: 20px;
 }
 
 .document {
