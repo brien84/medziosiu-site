@@ -90,11 +90,13 @@ body {
 .content-container--small .app-info-icon {
     width: 64px;
     vertical-align: middle;
+    border-radius: 15px;
 }
 
 .content-container--large .app-info-icon {
-    width: 80px;
+    width: 88px;
     vertical-align: middle;
+    border-radius: 15px;
 }
 
 .content-container--small .store-button {
