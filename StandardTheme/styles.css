@@ -189,17 +189,49 @@ body {
     animation-delay: 0s;
 }
 
+/*footer {*/
+/*    color: #bdc3c7;*/
+/*    font-size: 14px;*/
+/*    background-color: black;*/
+/*    text-align: center;*/
+/*    z-index: 99;*/
+/*}*/
+/**/
+/*footer a {*/
+/*    color: #bdc3c7;*/
+/*    text-decoration: none;*/
+/*}*/
+
+
 footer {
-    color: #bdc3c7;
-    font-size: 14px;
     background-color: black;
+    color: #bdc3c7;
+    padding: 12px 0;
     text-align: center;
     z-index: 99;
 }
 
-footer a {
-    color: #bdc3c7;
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-list li {
+    display: inline;
+}
+
+.footer-list a {
     text-decoration: none;
+    color: #bdc3c7;
+    font-size: 14px;
+}
+
+.footer-list a:hover {
+    color: #ddd;
 }
 
 .not-found {
