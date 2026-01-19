@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://medziosiu.lt/sitemap.xml
+Sitemap: https://www.medziosiu.lt/sitemap.xml
